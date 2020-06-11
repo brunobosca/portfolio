@@ -31,7 +31,7 @@
         }
 
         .corSecundaria {
-            background-color:#2c3e50;
+            background-color: #2c3e50;
         }
 
         p {
@@ -59,23 +59,28 @@
             fonte-weight: 700;
             color: #18bc9c;
         }
+
         .textoBranco {
             color: white !important
         }
+
         .jumbotron {
             margin-bottom: 0px;
         }
+
         .textoFooter {
-            margin: 0px
-            padding-top: 15px;
+            margin: 0px padding-top: 15px;
             padding-bottom: 15px
         }
+
         .textoBranconav {
             color: white !important
         }
+
         .nav-link {
-        color: white !important;
+            color: white !important;
         }
+
         .navbar-brand {
             color: white !important
         }
@@ -187,12 +192,49 @@
             </div>
         </div>
     </div>
+    <!-- Formulário de Login -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <div class="card card-signin my-5">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Faça o seu Login</h5>
+                        <form class="form-signin">
+                            <div class="form-label-group">
+                                <input type="email" id="inputEmail" class="form-control" placeholder="Email address"
+                                    required autofocus>
+                                <label for="inputEmail">Endereço de E-mail</label>
+                            </div>
+
+                            <div class="form-label-group">
+                                <input type="password" id="inputPassword" class="form-control" placeholder="Senha"
+                                    required>
+                                <label for="inputPassword">Digite sua senha</label>
+                            </div>
+
+                            <div class="custom-control custom-checkbox mb-3">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1">Esqueci minha senha</label>
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Faça o seu login</button>
+                            <hr class="my-4">
+                            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i
+                                    class="fab fa-google mr-2"></i>Faça login com o Google</button>
+                            <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i
+                                    class="fab fa-facebook-f mr-2"></i>Faça login com o Facebook</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- About me -->
     <section class="jumbotron text-center corPrimaria">
         <div class="container">
             <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
-            <o class="lead textoBranco">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+            <o class="lead textoBranco">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque
                 laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae
                 vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut
                 fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro
@@ -203,8 +245,7 @@
     <footer class="text-center corSecundaria textoBranco textoFooter">
         <p>Copyright 2020 - Bruno Boscaini</p>
     </footer>
-
-
+ 
 </body>
 
 </html>
